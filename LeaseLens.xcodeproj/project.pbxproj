@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* LeaseLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* LeaseLensApp.swift */; };
+		A10000000000000000000002 /* LeaseLensModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* LeaseLensModels.swift */; };
+		A10000000000000000000003 /* GeoSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* GeoSearchService.swift */; };
+		A10000000000000000000004 /* NYCOpenDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* NYCOpenDataService.swift */; };
+		A10000000000000000000005 /* RiskReportBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* RiskReportBuilder.swift */; };
+		A10000000000000000000006 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000006 /* SearchViewModel.swift */; };
+		A10000000000000000000007 /* ReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000007 /* ReportViewModel.swift */; };
+		A10000000000000000000008 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000008 /* AppTheme.swift */; };
+		A10000000000000000000009 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000009 /* Components.swift */; };
+		A10000000000000000000010 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010 /* HomeView.swift */; };
+		A10000000000000000000011 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000011 /* ReportView.swift */; };
+		A10000000000000000000012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000012 /* Assets.xcassets */; };
+		A10000000000000000000013 /* RiskReportBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000013 /* RiskReportBuilderTests.swift */; };
+		A10000000000000000000014 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000014 /* InfoView.swift */; };
+		A10000000000000000000015 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000015 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10000000000000000000001;
+			remoteInfo = LeaseLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10000000000000000000001 /* LeaseLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseLensApp.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 /* LeaseLensModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseLensModels.swift; sourceTree = "<group>"; };
+		F10000000000000000000003 /* GeoSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoSearchService.swift; sourceTree = "<group>"; };
+		F10000000000000000000004 /* NYCOpenDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCOpenDataService.swift; sourceTree = "<group>"; };
+		F10000000000000000000005 /* RiskReportBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskReportBuilder.swift; sourceTree = "<group>"; };
+		F10000000000000000000006 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		F10000000000000000000007 /* ReportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewModel.swift; sourceTree = "<group>"; };
+		F10000000000000000000008 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		F10000000000000000000009 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		F10000000000000000000010 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F10000000000000000000011 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		F10000000000000000000012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10000000000000000000013 /* RiskReportBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskReportBuilderTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000014 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F10000000000000000000015 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F10000000000000000000020 /* LeaseLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaseLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10000000000000000000021 /* LeaseLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeaseLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G10000000000000000000002 /* LeaseLens */,
+				G10000000000000000000008 /* LeaseLensTests */,
+				G10000000000000000000009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10000000000000000000002 /* LeaseLens */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000001 /* LeaseLensApp.swift */,
+				G10000000000000000000003 /* Models */,
+				G10000000000000000000004 /* Services */,
+				G10000000000000000000005 /* ViewModels */,
+				G10000000000000000000006 /* Views */,
+				G10000000000000000000007 /* Resources */,
+			);
+			path = LeaseLens;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000002 /* LeaseLensModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000003 /* GeoSearchService.swift */,
+				F10000000000000000000004 /* NYCOpenDataService.swift */,
+				F10000000000000000000005 /* RiskReportBuilder.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000006 /* SearchViewModel.swift */,
+				F10000000000000000000007 /* ReportViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000008 /* AppTheme.swift */,
+				F10000000000000000000009 /* Components.swift */,
+				F10000000000000000000010 /* HomeView.swift */,
+				F10000000000000000000011 /* ReportView.swift */,
+				F10000000000000000000014 /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000012 /* Assets.xcassets */,
+				F10000000000000000000015 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000008 /* LeaseLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000013 /* RiskReportBuilderTests.swift */,
+			);
+			path = LeaseLensTests;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000020 /* LeaseLens.app */,
+				F10000000000000000000021 /* LeaseLensTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B10000000000000000000001 /* LeaseLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = L10000000000000000000002 /* Build configuration list for PBXNativeTarget "LeaseLens" */;
+			buildPhases = (
+				S10000000000000000000001 /* Sources */,
+				BF1000000000000000000001 /* Frameworks */,
+				R10000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeaseLens;
+			productName = LeaseLens;
+			productReference = F10000000000000000000020 /* LeaseLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B10000000000000000000002 /* LeaseLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = L10000000000000000000003 /* Build configuration list for PBXNativeTarget "LeaseLensTests" */;
+			buildPhases = (
+				S10000000000000000000002 /* Sources */,
+				BF1000000000000000000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = LeaseLensTests;
+			productName = LeaseLensTests;
+			productReference = F10000000000000000000021 /* LeaseLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					B10000000000000000000001 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					B10000000000000000000002 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = B10000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = L10000000000000000000001 /* Build configuration list for PBXProject "LeaseLens" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G10000000000000000000001;
+			productRefGroup = G10000000000000000000009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B10000000000000000000001 /* LeaseLens */,
+				B10000000000000000000002 /* LeaseLensTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R10000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000012 /* Assets.xcassets in Resources */,
+				A10000000000000000000015 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S10000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* LeaseLensApp.swift in Sources */,
+				A10000000000000000000002 /* LeaseLensModels.swift in Sources */,
+				A10000000000000000000003 /* GeoSearchService.swift in Sources */,
+				A10000000000000000000004 /* NYCOpenDataService.swift in Sources */,
+				A10000000000000000000005 /* RiskReportBuilder.swift in Sources */,
+				A10000000000000000000006 /* SearchViewModel.swift in Sources */,
+				A10000000000000000000007 /* ReportViewModel.swift in Sources */,
+				A10000000000000000000008 /* AppTheme.swift in Sources */,
+				A10000000000000000000009 /* Components.swift in Sources */,
+				A10000000000000000000010 /* HomeView.swift in Sources */,
+				A10000000000000000000011 /* ReportView.swift in Sources */,
+				A10000000000000000000014 /* InfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		S10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000013 /* RiskReportBuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D10000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B10000000000000000000001 /* LeaseLens */;
+			targetProxy = C10000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		X10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		X10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		X10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LeaseLens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisdimarco.LeaseLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		X10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LeaseLens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisdimarco.LeaseLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		X10000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisdimarco.LeaseLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeaseLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeaseLens";
+			};
+			name = Debug;
+		};
+		X10000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisdimarco.LeaseLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeaseLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeaseLens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		L10000000000000000000001 /* Build configuration list for PBXProject "LeaseLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				X10000000000000000000001 /* Debug */,
+				X10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		L10000000000000000000002 /* Build configuration list for PBXNativeTarget "LeaseLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				X10000000000000000000003 /* Debug */,
+				X10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		L10000000000000000000003 /* Build configuration list for PBXNativeTarget "LeaseLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				X10000000000000000000005 /* Debug */,
+				X10000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P10000000000000000000001 /* Project object */;
+}
