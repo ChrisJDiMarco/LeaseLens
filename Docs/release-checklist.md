@@ -14,7 +14,7 @@ Last updated: 2026-05-26
 
 ## Blocking Before Upload
 
-- Install Xcode 26 or newer. Apple states that, starting April 28, 2026, iOS apps uploaded to App Store Connect must be built with the iOS 26 SDK or later. This Mac currently has Xcode 16.4 with the iOS 18.5 SDK.
+- Xcode 26 or newer is installed locally; keep using the current iOS SDK for upload.
 - Join or use an active Apple Developer Program team and set the app's signing team, distribution certificate, and provisioning profile.
 - Register/finalize the bundle identifier. Current development identifier: `com.chrisdimarco.LeaseLens`.
 - Publish the final privacy policy at a public HTTPS URL and add the URL in App Store Connect and in the app.
